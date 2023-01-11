@@ -1,0 +1,14 @@
+.loader-persons {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  row-gap: 40px;
+  column-gap: 30px;
+  margin-top: 64px;
+}
+
+.loader-person div {
+  width: 100%;
+  background-color: grey;
+  height: 16px;
+  border-radius: 4px;
+}
